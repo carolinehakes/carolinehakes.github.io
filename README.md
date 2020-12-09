@@ -8,15 +8,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### White House Salaries
 This is a project that took White House salary data and created a dashboard to comparies the highest raises
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```White House Salaries
-This is a project that took White House salary data and created a dashboard to comparies the highest raises
-
 See the page in action [here](https://amkessler.github.io/whitehousesalaries).
 
 ```
-[Link](url) and ![Image](src)
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
