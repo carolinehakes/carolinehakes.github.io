@@ -1,33 +1,22 @@
-## My Portfolio Site
-
+## Welcome to GitHub Pages
 You can use the [editor on GitHub](https://github.com/carolinehakes/carolinehakes.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Hello - putting some new content on my new site! Yay! 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### White House Salaries
+This is a project that took White House salary data and created a dashboard to comparies the highest raises
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+```White House Salaries
+This is a project that took White House salary data and created a dashboard to comparies the highest raises
 
-# Header 1
-## Header 2
-### Header 3
+See the page in action [here](https://amkessler.github.io/whitehousesalaries).
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
-
+[Link](url) and ![Image](src)
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
