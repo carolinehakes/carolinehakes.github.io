@@ -1,9 +1,7 @@
-## Welcome to GitHub Pages
-You can use the [editor on GitHub](https://github.com/carolinehakes/carolinehakes.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Welcome to my GitHub Site 
+I am a senior at George Washington University graduating at the end of December 2020. I majored in International Affairs and minored in Journalism. This site is a part of my final project for my Data Journalism class. We have been learning how to use R to analyze data and to build mini websites with R and Github. 
 
-Hello - putting some new content on my new site! Yay! 
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Below are three different projects I completed using R and GitHub over the course of the semester.
 
 ### White House Salaries
 This is a project that took White House salary data and created a dashboard to comparies the highest raises
