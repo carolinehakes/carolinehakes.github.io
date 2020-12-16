@@ -6,11 +6,11 @@ Below are three different projects I completed using R and GitHub over the cours
 
 ### Impeachment Data Project
 For this project, I analyzed House Democrats' record on impeachment. I sorted through the data to obtain information about the demographics of their districts and past elections results.
-View the R Markdown HTML file [here](file:///Users/carolinehakes99/Downloads/R1_HW_Hakes.html).
+View the R Markdown HTML file .
 
 ## Biden Transition Data Project 
 For this project, I had to scrape the Biden transition website to determine how many new White House staff and Cabinet appointees had been announced. We did an initial scrape in class together and later did one on our own to identify new appointees and hires.
-View the project [here] (file:///Users/carolinehakes99/Desktop/Git%20stuff/gw_r_assignment_transition_hakes/04_assignmentfile_markdownreport.html). 
+View the project . 
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
