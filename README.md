@@ -5,9 +5,11 @@ Below are three different projects I completed using R and GitHub over the cours
 
 
 ### Impeachment Data Project
-For this project, we analyzed House Democrats' record on impeachment. 
+For this project, I analyzed House Democrats' record on impeachment. I sorted through the data to obtain information about the demographics of their districts and past elections results.
 View the R Markdown HTML file [here](file:///Users/carolinehakes99/Downloads/R1_HW_Hakes.html).
 
+## Biden Transition Data Project 
+For this project, 
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
