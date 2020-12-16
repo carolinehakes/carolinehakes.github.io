@@ -4,7 +4,7 @@ I am a senior at George Washington University graduating at the end of December 
 Below are three different projects I completed using R and GitHub over the course of the semester.
 
 
-### Impeachment Data Project
+## Impeachment Data Project
 For this project, I analyzed House Democrats' record on impeachment. I sorted through the data to obtain information about the demographics of their districts and past elections results.
 View the project: https://rpubs.com/carolinemhakes/705190.
 
