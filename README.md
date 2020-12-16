@@ -10,7 +10,7 @@ View the R Markdown HTML file .
 
 ## Biden Transition Data Project 
 For this project, I had to scrape the Biden transition website to determine how many new White House staff and Cabinet appointees had been announced. We did an initial scrape in class together and later did one on our own to identify new appointees and hires.
-View the project . 
+View the project: https://rpubs.com/carolinemhakes/705189. 
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
