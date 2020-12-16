@@ -3,10 +3,10 @@ I am a senior at George Washington University graduating at the end of December 
 
 Below are three different projects I completed using R and GitHub over the course of the semester.
 
-### White House Salaries
-This is a project that took White House salary data and created a dashboard to comparies the highest raises
 
-See the page in action [here](https://amkessler.github.io/whitehousesalaries).
+### Impeachment Data Project
+For this project, we analyzed House Democrats' record on impeachment. 
+View the R Markdown HTML file [here](file:///Users/carolinehakes99/Downloads/R1_HW_Hakes.html).
 
 ```
 
