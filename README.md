@@ -9,7 +9,8 @@ For this project, I analyzed House Democrats' record on impeachment. I sorted th
 View the R Markdown HTML file [here](file:///Users/carolinehakes99/Downloads/R1_HW_Hakes.html).
 
 ## Biden Transition Data Project 
-For this project, 
+For this project, I had to scrape the Biden transition website to determine how many new White House staff and Cabinet appointees had been announced. We did an initial scrape in class together and later did one on our own to identify new appointees and hires.
+View the project [here] (file:///Users/carolinehakes99/Desktop/Git%20stuff/gw_r_assignment_transition_hakes/04_assignmentfile_markdownreport.html). 
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
