@@ -13,5 +13,5 @@ For this project, I had to scrape the Biden transition website to determine how 
 View the project [here](https://rpubs.com/carolinemhakes/705189).
 
 ## Biden Flexdashboard Project
-For my final project of this course, I had to create a flexdashboard site using the data from the Biden transition assignment (linked above). I used RStudio and GitHub to create this site. 
+For my final project of this course, I had to create a mini site using the data from the Biden transition assignment (linked above). I used the flexdashboard template in RStudio to create this site. 
 ```
