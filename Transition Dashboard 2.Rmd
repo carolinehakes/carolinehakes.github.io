@@ -3,10 +3,10 @@ title: "Biden Transition Dashboard"
 output:
   html_document:
     df_print: paged
-  pdf_document: default
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -22,9 +22,9 @@ library(htmlwidgets)
 library(htmltools)
 library(readxl)
 
-readRDS("~/Desktop/Git stuff/gw_r_assignment_transition_hakes/processed_data/agencycount_compare.rds")
+agencycount_compare <- readRDS("~/Desktop/Git stuff/Final Site Project/agencycount_compare.rds")
 
-agencycount_compare
+agencycount_compare <- agencycount_compare
 ```
 
 Column {data-width=650}
@@ -33,7 +33,8 @@ Column {data-width=650}
 ### Comparing Agency Review Team Counts
 
 ```{r}
-agencycount_compare <-readRDS("~/Desktop/Git stuff/gw_r_assignment_transition_hakes/processed_data/agencycount_compare.rds")
+readRDS("~/Desktop/Git stuff/Final Site Project/agencycount_compare.rds")
+agencycount_compare <- agencycount_compare
 
 agencycount_compare <- agencycount_compare %>% 
   select(agency, current_count, previous_count, change) %>% 

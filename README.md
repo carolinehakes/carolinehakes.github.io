@@ -13,5 +13,5 @@ For this project, I had to scrape the Biden transition website to determine how 
 View the project [here](https://rpubs.com/carolinemhakes/705189).
 
 ## Biden Flexdashboard Project
-For my final project of this course, I had to create a mini site using the data from the Biden transition assignment (linked above). I used the flexdashboard template in RStudio to create this site. 
+For my final project of this course, I had to create a mini site using the data from the Biden transition assignment (linked above). I used the flexdashboard template in RStudio to create this site. The dashboard shows the Biden Transition Agency Review Teams from largest to smallest. My hope is that people will be able to use this information to get a better understanding of what the Biden administration's top priorities are. For example, it makes sense that the Department of Health and Human Services has the largest Agency Review Team, due to the importance of tackling the COVID-19 pandemic. View the project [here](https://rpubs.com/carolinemhakes/bidenagencyteams).
 ```
