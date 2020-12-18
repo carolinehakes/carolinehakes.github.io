@@ -1,0 +1,64 @@
+---
+title: "Biden Transition Dashboard"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(lubridate)
+library(janitor)
+library(glue)
+library(plotly)
+library(DT)
+library(kableExtra)
+library(htmlwidgets)
+library(htmltools)
+library(readxl)
+
+readRDS("~/Desktop/Git stuff/gw_r_assignment_transition_hakes/processed_data/agencycount_compare.rds")
+
+agencycount_compare
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Comparing Agency Review Team Counts
+
+```{r}
+agencycount_compare <-readRDS("~/Desktop/Git stuff/gw_r_assignment_transition_hakes/processed_data/agencycount_compare.rds")
+
+agencycount_compare <- agencycount_compare %>% 
+  select(agency, current_count, previous_count, change) %>% 
+  mutate(
+    agency = as.factor(agency)
+    
+    ) %>% 
+  arrange(
+    desc(current_count))
+
+
+datatable(agencycount_compare,
+          rownames = FALSE,
+          filter = "top",
+          extensions = 'Buttons',
+          options = list(searchHighlight = TRUE, bPaginate = FALSE, dom = 'Bfrtip',
+       buttons = c('copy', 'csv', 'excel', 'print')
+          )) %>%
+      formatStyle(c("agency","current_count", "previous_count", "change"), fontWeight = 'bold') %>%
+      # formatStyle("current_count", color = "darkred") %>%
+      formatStyle(
+      'current_count',
+      background = styleColorBar(agencycount_compare$current_count, 'steelblue'),
+      backgroundSize = '100% 90%',
+      backgroundRepeat = 'no-repeat',
+      backgroundPosition = 'center'
+    )
+```
